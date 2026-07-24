@@ -1,4 +1,4 @@
-ARG PHP_VERSION=8.4.12
+ARG PHP_VERSION=8.5.8
 
 FROM php:${PHP_VERSION}-fpm
 
@@ -23,7 +23,6 @@ RUN apt update -y \
         intl \
         mbstring \
         sodium \
-        opcache \
         pdo_mysql \
         soap \
         simplexml \
